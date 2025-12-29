@@ -6,85 +6,77 @@ params:
 
 website: 
   page-navigation: true
-  title: "Website Template" 
-  site-url: "https://dharaden.github.io/site-template"
+  title: "PSYC 641 - Graduate Methods" 
+  site-url: "https://dharaden.github.io/psyc641-s26"
   
-  repo-url: https://github.com/dharaden/site-template 
-  repo-actions: [issue]
+  repo-url: https://github.com/dharaden/psyc641-s26 
+  repo-actions: [edit, issue]
   
   open-graph: true
+
+  page-footer:
+    right: "This page is built with ☕ and [Quarto](https://quarto.org/)."
+    left: "&copy; CC-By Dustin Haraden, 2026"
+    background: "#343148"
     
   sidebar:
-    background: "#798b93"
-    logo: "images/logo.png"
+    background: "#343148"
+    logo: "images/641_hex.png"
     pinned: true
     align: center
-    
-    tools: 
-      - icon: file-play
-        href: https://youtube.com
-        text: "Videos"
-      - icon: person-fill
+    tools:
+      - icon: github
+        href: https://github.com/dharaden/psyc641-s26
+        text: "GitHub"
+      - icon: chalkboard
+        href: https://mycourses.rit.edu/d2l/login
         text: "myCourses"
-        menu: 
-          - text: Assignments
-            url: https://rit.edu
-          - text: Grades
-            url: https://rit.edu
-            
+        
 
     style: "docked"
     search: true
-    collapse-level: 3
-    
-    
+    collapse-level: 1
     contents:
-      - section: "Course Information"
-        contents:
-          - href: index.qmd
-            text: Home
+      - section: "Course information"
+        contents: 
           - href: course-overview.qmd
-            text: Overview
+            text: "Overview"
           - href: course-syllabus.qmd
-            text: Syllabus
-          
-          - href: course-links.qmd
-            text: Useful links
-      - section: "Assignments"
+            text: "Syllabus"
+          - href: index.qmd
+            text: "Schedule"
+      - section: "Weekly Materials"
         contents:
-          - href: assignment/assignment-1.qmd
-            text: "1 Intro Video"
-          - href: assignment/assignment-2.qmd
-            text: "2 Sleep Tracking"
-          - href: assignment/assignment-3.qmd
-            text: "3 Mini-Experiment"
-          - href: assignment/assignment-4.qmd
-            text: "4 Development in Media"
-          - href: assignment/assignment-5.qmd
-            text: "5 Personality Test Drive"
-          - href: assignment/final-project.qmd
-            text: "Final Project"
-      - href: lectures.qmd
-        text: "Lecture Slides"
-        
-
-  page-footer:
-      right: "This page is built with ☕ and [Quarto](https://quarto.org/)."
-      left: "&copy; CC-By Dustin Haraden, 2025"
-      background: "#5d6d74"
+          - href: weeks/week-1.qmd
+            text: "Week 1 - Getting Comfy w/ R"
+          - href: weeks/week-2.qmd
+            text: "Week 2"
+          - href: weeks/week-3.qmd
+            text: "Week 3 - Describe & Viz"
+          - href: weeks/week-4.qmd
+            text: "Week 4 - Design & Inference"
+          - href: weeks/week-5.qmd
+            text: "Week 5 - Correlation"
+      - href: resources.qmd
+        text: "Resources" 
+      - href: previous-years.qmd
+        text: "Previous Years"
 
 format:
   html:
     theme:
-      light: [cosmo, style/sta101.scss]
-      dark: [cosmo, style/sta101.scss, style/dark.scss]
-    linkcolor: "#798b93"
-    toc: true
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme-dark.scss]
+    mainfont: "Atkinson Hyperlegible"
     code-copy: true
     code-overflow: wrap
-    mainfont: "Atkinson Hyperlegible"
+    toc: true
 
-execute:
-  freeze: auto
+freeze: auto
 
 editor: visual
+
+
+filters:
+  - include-files.lua
+  - quarto

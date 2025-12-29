@@ -1,0 +1,30 @@
+---
+title: "Week 4"
+editor: visual
+---
+
+# Introduction to Inference
+
+## Slides
+
+[💻 Design & Inference](../slides/lec-4_design-inference.html){target="_blank"}
+
+## In-Class Activity
+
+[Beginnings of Inference](../class-activities/wk4_beg-inf.html){target="_blank"}
+
+## For Next Time
+
+📋[Lab 4 - Intro to Inference](../labs/lab-4.html)
+
+Complete Stats Check (see myCourses)
+
+📖[Chapter 5.1 & 13 - ST](https://statsthinking21.github.io/statsthinking21-core-site/){target="_blank"}
+
+📖[Chapter 11 - LSR](https://learningstatisticswithr.com/book/){target="_blank"}
+
+<br><br>
+
+::: {style="font-size: 0.875em;"}
+Back to [course schedule](/ "Course schedule") ⏎
+:::
