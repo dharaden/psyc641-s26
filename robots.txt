@@ -1,1 +1,1 @@
-Sitemap: https://dharaden.github.io/site-template/sitemap.xml
+Sitemap: https://dharaden.github.io/psyc641-s26/sitemap.xml
