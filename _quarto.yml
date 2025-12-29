@@ -67,7 +67,7 @@ format:
     theme:
       light: [cosmo, theme.scss]
       dark: [cosmo, theme-dark.scss]
-    mainfont: "Atkinson Hyperlegible"
+    mainfont: Nunito
     code-copy: true
     code-overflow: wrap
     toc: true
