@@ -17,10 +17,8 @@ website:
   page-footer:
     right: "This page is built with ☕ and [Quarto](https://quarto.org/)."
     left: "&copy; CC-By Dustin Haraden, 2026"
-    background: "#343148"
     
   sidebar:
-    background: "#343148"
     logo: "images/641_hex.png"
     pinned: true
     align: center
@@ -64,9 +62,7 @@ website:
 
 format:
   html:
-    theme:
-      light: [cosmo, theme.scss]
-      dark: [cosmo, theme-dark.scss]
+    theme: styles.scss
     mainfont: Nunito
     code-copy: true
     code-overflow: wrap
