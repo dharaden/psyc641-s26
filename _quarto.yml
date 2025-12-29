@@ -62,7 +62,7 @@ website:
 
 format:
   html:
-    theme: styles.scss
+    theme: theme.scss
     mainfont: Nunito
     code-copy: true
     code-overflow: wrap
