@@ -34,15 +34,9 @@ website:
     style: "docked"
     search: true
     collapse-level: 1
+    - href: index.qmd
+      text: "Course Overview"
     contents:
-      - section: "Course information"
-        contents: 
-          - href: course-overview.qmd
-            text: "Overview"
-          - href: course-syllabus.qmd
-            text: "Syllabus"
-          - href: index.qmd
-            text: "Schedule"
       - section: "Weekly Materials"
         contents:
           - href: weeks/week-1.qmd
