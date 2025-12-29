@@ -6,6 +6,20 @@ This is the homepage for PSYC641- Applied Psychology Methods taught by Dr. Dusti
 
 The focus of this course will be to understand various methods for conducting research in psychological science.
 
++----------------+---------------------------------------------+
+| **Professor**  | Dustin Haraden, PhD                         |
++----------------+---------------------------------------------+
+| *Email/Office* | dxhgsh\@rit.edu; Eastman Hall - 3378        |
++----------------+---------------------------------------------+
+| *Office Hours* | Mondays 10:00am – 12:00pm or By Appointment |
++----------------+---------------------------------------------+
+| *Class Times*  | Tuesdays & Thursdays                        |
+|                |                                             |
+|                | 9:30 – 10:45am                              |
++----------------+---------------------------------------------+
+| Class Location | Liberal Arts A210                           |
++----------------+---------------------------------------------+
+
 ## Class Structure
 
 This course will be accelerated, but will also be self-paced (i.e., asynchronous). There will be set deadlines for various projects/assignments, but you are free to structure your time otherwise. There will be 6 total units that cover a brief introduction into various areas of psychology. Each topic will typically consist of:
